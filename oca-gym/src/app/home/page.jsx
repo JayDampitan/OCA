@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link"
 import mainImage from "../../../assets/mainHome.jpg"
 import secondHomeImage from "../../../assets/secondHome.jpg"
