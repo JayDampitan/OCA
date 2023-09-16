@@ -47,16 +47,6 @@ const Navbar = () => {
                   <Link href={`${item.page}`}>{item.label}</Link>
                 </li>
               ))}
-              <li className="border-l border-primary">
-                <button className=" border border-primary text-primary py-1 rounded-full px-4 uppercase ml-3 hover:text-offWhite hover:bg-primary duration-300">
-                  <Link
-                    target="_blank"
-                    href="https://login.ionos.com/?redirect_url=https%3A%2F%2Fmy.ionos.com%2Fmywebsite-overview%3Fmywebsite.pageid%3D529000&username=www.thebodyshophealthclub.com"
-                  >
-                    log in
-                  </Link>
-                </button>
-              </li>
             </ul>
           </div>
           {/* ----------hamburger menu----------- */}
