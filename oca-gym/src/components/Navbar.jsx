@@ -17,7 +17,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const page = window.sessionStorage.getItem("currentPage");
-    setActive(page || "/");
+    setActive(page || "/home");
   }, []);
 
   const handleNavbar = () => setNavbar(!navbar);
