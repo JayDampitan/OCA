@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { topVariant } from "../../assets/data";
 
 const Navbar = () => {
-  const [active, setActive] = useState("home");
+  const [active, setActive] = useState("/");
   const [navbar, setNavbar] = useState(false);
 
   const setLocalStorage = (currentPage) => {
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const page = window.sessionStorage.getItem("currentPage");
-    setActive(page || "home");
+    setActive(page || "/");
   }, []);
 
   const handleNavbar = () => setNavbar(!navbar);
@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link
             href="/"
-            onClick={() => setLocalStorage("/")}
+            onClick={() => setLocalStorage("home")}
             className="text-3xl"
           >
             OCA GYM
