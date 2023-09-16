@@ -11,7 +11,7 @@ function Home () {
       <div className="h-[450px] lg:h-screen relative text-center flex flex-col items-center justify-center w-full  bg-cover text-gray-100 uppercase font-semibold">
         {/* -----------hero image------------- */}
         <div className="absolute w-auto  h-full bg-gradient-to-tr from-black to-gray-900">
-          <Image className="opacity-50 object-cover h-full" alt="image of a man and woman working out" src={mainImage} />
+          <Image className="opacity-50 object-cover h-full" alt="Image of a woman boxing" src={mainImage} />
         </div>
         {/* ---------------------------------- */}
         <h2 className=" relative text-xl lg:text-6xl font-bold">

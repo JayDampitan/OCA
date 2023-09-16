@@ -30,7 +30,7 @@ function About() {
               src={aboutMain}
               width="70%"
               height="70%"
-              alt="image of a couple"
+              alt="Image of the Ochoa Combat Gym members"
               className="w-fullz h-full object-cover"
             />
           </div>
