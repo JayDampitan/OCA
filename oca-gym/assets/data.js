@@ -1,7 +1,7 @@
 export const NAV_ITEMS = [
     {
       label: "Home",
-      page: "/",
+      page: "home",
     },
     {
       label: "About",
