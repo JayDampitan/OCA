@@ -5,7 +5,7 @@ import aboutMain from "../../../assets/aboutMain.jpg"
 
 function About() {
   return (
-    <div className="text-center bg-bodyBackground text-offWhite flex items-center flex-col justify-center h-[100vh] w-full">
+    <div className="text-center bg-bodyBackground text-offWhite flex items-center flex-col justify-center h-[100%] w-full">
       <div className="bg-primary w-full flex-col flex items-center justify-center py-24 lg:py-44">
         <h2 className="  text-offWhite uppercase text-lg lg:text-4xl font-semibold">
           welcome ochoa combat academy
