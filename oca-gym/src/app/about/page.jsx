@@ -11,11 +11,7 @@ function About() {
           welcome ochoa combat academy
         </h2>
         <p className="max-w-3xl text-sm text-offWhite mt-10 sm:text-xl px-2 leading-6 lg:leading-10">
-         {` Welcome to The Body Shop Health Club. If you like that hometown gym
-          atmosphere combined with 24 hour access for members, welcome to our
-          club. Family owned and operated, we take great pride in providing an
-          alternative to the corporate clubs. Whether you're a beginner or a
-          seasoned athlete, our helpful staff is trained to assist you.`}
+         {` Welcome to our family-friendly combat gym, where we're dedicated to fostering not only martial arts skills but also strong family bonds. At our gym, we believe that fitness and self-defense should be accessible to everyone, from kids to grandparents, and we've created an inclusive environment to make that possible. Our experienced and certified instructors are passionate about helping families grow together through the discipline and camaraderie of martial arts.`}
         </p>
       </div>
 
