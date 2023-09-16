@@ -25,13 +25,13 @@ function Facility() {
         className="h-64 lg:h-auto lg:w-[70%] -translate-y-8 lg:-translate-y-16 object-cover rounded-sm"
       />
 
-      <div className="w-full p-2 lg:pl-60 md:flex-row flex flex-col justify-around items-center my-8">
+      <div className="w-full p-2 lg:pl-50 md:flex-row flex flex-col justify-around items-center my-8">
         <Image alt="image of ochoa combat gym mat" src={facility2} className="w-[50%] md:w-[40%]"/>
         <p className="p-10 flex items-center md:text-3xl text-offWhite md:w-[50%]">
             {`Forge Warriors on Our High-Quality Training Mats: Join Our Combat Academy for a Foundation of Excellence! Our facility boasts the perfect foundation for your martial arts journey with top-tier, shock-absorbent training mats. Train confidently, knowing you're on the same mats trusted by champions!`}.
         </p>
       </div>
-      <div className="w-full p-2 lg:pl-60 md:flex-row-reverse flex flex-col justify-around items-center my-8">
+      <div className="w-full p-2 lg:pr-50 md:flex-row-reverse flex flex-col justify-around items-center my-8">
         <Image alt="image of ochoa combat gym punching bags" src={facility3} className="w-[50%] md:w-[40%]"/>
         <p className="p-10 flex items-center md:text-3xl text-offWhite md:w-[50%]">
             {`Unleash Your Potential: Train with Intensity on Our Top-of-the-Line Punching Bags at Our Combat Academy! Our facility is equipped with a diverse range of punching bags, catering to all levels of martial artists. Experience the power and precision of your strikes as you transform into a formidable fighter.`}.
