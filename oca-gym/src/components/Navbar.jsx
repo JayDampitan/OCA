@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link
             href="/"
-            onClick={() => setLocalStorage("home")}
+            onClick={() => setLocalStorage("/")}
             className="text-3xl"
           >
             OCA GYM
