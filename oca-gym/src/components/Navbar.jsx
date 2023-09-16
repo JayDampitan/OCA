@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { topVariant } from "../../assets/data";
 
 const Navbar = () => {
-  const [active, setActive] = useState("/");
+  const [active, setActive] = useState("/home");
   const [navbar, setNavbar] = useState(false);
 
   const setLocalStorage = (currentPage) => {
