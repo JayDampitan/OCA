@@ -4,26 +4,26 @@ function Contact() {
   return (
     <div className="flex text-offWhite bg-bodyBackground h-auto lg:h-auto py-6 w-full justify-center">
       <div className="w-[90%] lg:h-[80vh] mt-20 lg:mt-36  bg-primary rounded-2xl flex flex-col  items-center justify-center py-6">
-        <h2 className="text-2xl mb-6 font-semibold lg:text-5xl border-b-2 ">
-          contact us
+        <h2 className="text-2xl mb-6 font-semibold lg:text-4xl border-b border-offWhite ">
+          CONTACT US
         </h2>
 
-        <div className="flex flex-col lg:flex-row h-[80%] w-full items-center">
-          <div className=" lg:w-[50%]  w-full text-center lg:text-center">
-            <p className="lg:text-2xl font-semibold">
+        <div className="flex flex-col lg:flex-row h-[80%] w-full items-center ">
+          <div className=" lg:w-[50%]  w-full text-center lg:text-center space-y-5">
+            <p className="lg:text-3xl font-semibold">
               <span>
                 <FaAddressBook className="inline mr-2" />
               </span>{" "}
               1055 W Bush St.
             </p>
-            <p className="lg:text-2xl font-semibold">Lemoore ca. 93245</p>
-            <p className="lg:text-2xl font-semibold">
+            <p className="lg:text-3xl font-semibold">Lemoore ca. 93245</p>
+            <p className="lg:text-3xl font-semibold">
               <span>
                 <FaPhoneAlt className="inline mr-2" />
               </span>
               559-309-0266
             </p>
-            <p className="lg:text-2xl font-semibold">
+            <p className="lg:text-3xl font-semibold">
               <span>
                 <FaMailBulk className="inline mr-2" />
               </span>
