@@ -1,13 +1,14 @@
 "use client";
 import service1Image from "../../../assets/services1.jpg";
-import service2Image from "../../../assets/services2.jpg";
+import service2Image from "../../../assets/kidFighting.jpg";
 import service3Image from "../../../assets/services3.jpg";
+import service4Image from "../../../assets/services4.jpg";
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import { TRAINING__SERVICES } from "../../../assets/data";
 
-const images = [service1Image, service2Image, service3Image];
+const images = [service1Image, service2Image, service3Image, service4Image];
 
 function Services() {
   return (
