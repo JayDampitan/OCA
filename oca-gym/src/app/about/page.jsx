@@ -54,7 +54,6 @@ function About() {
         <div className="relative overflow-hidden pt-[56.25%] w-full h-full">
           <iframe
             className="absolute w-full h-full top-0"
-         
             src="https://www.youtube.com/embed/l3BZnMA9xbQ?si=Vto6P44H8I_sSKfA"
             title="YouTube video player"
             frameborder="0"
