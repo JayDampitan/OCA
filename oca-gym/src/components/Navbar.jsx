@@ -29,7 +29,7 @@ const Navbar = () => {
           <Link
             href="/"
             onClick={() => setLocalStorage("/")}
-            className="text-3xl"
+            className="text-3xl font-extrabold"
           >
             OCA GYM
           </Link>
