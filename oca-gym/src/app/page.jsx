@@ -97,17 +97,10 @@ export default function Home() {
 
             <div className="my-10 w-[90%] mx-auto md:w-[50%] space-y-8 flex items-center justify-center flex-col ">
               <h3 className="my-4 text-xl font-bold px-8  border-b-2 py-2 border-primary">
-                WATCH HIS FIGHTS HIGHLIGHTS!!
+                WATCH HIS FIGHT HIGHLIGHTS!!
               </h3>
-              <div className="relative overflow-hidden pt-[56.25%] w-full h-full">
-                <iframe
-                  className="absolute w-full h-full top-0"
-                  src="https://www.youtube.com/embed/l3BZnMA9xbQ?si=Vto6P44H8I_sSKfA"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
+              <div className="relative pt-[56.25%] w-full h-full">
+                <iframe  className="absolute w-full h-full top-0" src="https://www.youtube.com/embed/l3BZnMA9xbQ?si=Ro_OMDH4wosN8-rq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true" mozallowfullscreen webkitallowfullscreen></iframe>
               </div>
             </div>
           </div>

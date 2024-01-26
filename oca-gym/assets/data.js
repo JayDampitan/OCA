@@ -12,6 +12,10 @@ export const NAV_ITEMS = [
     page: "services",
   },
   {
+    label: "Videos",
+    page: "videos",
+  },
+  {
     label: "Facility",
     page: "facility",
   },
